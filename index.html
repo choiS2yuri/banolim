@@ -1,0 +1,334 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="icon" href="/images/favicon.ico" />
+    <link rel="stylesheet" href="css/all.css">
+    <link rel="stylesheet" href="css/swiper-bundle.min.css">
+    <link rel="stylesheet" href="css/banolim-index.css">
+</head>
+<body>
+    <div class="wrap">
+        <div class="header">
+            <div class="header-wrap">
+                <div class="logo">
+                    <a href="https://www.banolimpizza.com/">
+                        <img src="images/banolim_symbol_b.png" alt="logo">
+                    </a>
+                </div>
+                <div class="nav">
+                    <ul>
+                        <li>
+                            <a href="https://banolimpizza.com/menu/w_productPizza">메뉴</a>
+                        </li>
+                        <li>
+                            <a href="https://www.banolimpizza.com/order/w_eCoupon">E-쿠폰</a>
+                        </li>
+                        <li>
+                            <a href="https://banolimpizza.com/event/w_ongoingList">이벤트</a>
+                        </li>
+                        <li>
+                            <a href="#">매장찾기</a>
+                        </li>
+                        <li>
+                            <a href="https://banolimpizza.com/csCenter/w_notice">고객센터</a>
+                        </li>
+                        <li class ="suvbtn" onclick="openClose()">더보기
+                            <i class="fa-solid fa-chevron-down"></i>
+                        </li>
+                    </ul>
+                    <div class="submenu">
+                        <ul>
+                            <li class="tit">
+                                <a href="#">메뉴</a>
+                            </li>
+                            <li>
+                                <a href="https://www.banolimpizza.com/menu/w_productPick">내맘대로pick</a>
+                            </li>
+                            <li>
+                                <a href="https://www.banolimpizza.com/menu/w_productHalf">반반피자</a>
+                            </li>
+                            <li>
+                                <a href="https://www.banolimpizza.com/menu/w_productPizza">오리지널 피자</a>
+                            </li>
+                            <li>
+                                <a href="https://www.banolimpizza.com/menu/w_productOne">1+1</a>
+                            </li>
+                            <li>
+                                <a href="https://www.banolimpizza.com/menu/w_productSide">사이드</a>
+                            </li>
+                            <li>
+                                <a href="https://www.banolimpizza.com/menu/w_productDrink">음료</a>
+                            </li>
+                        </ul>
+                        <ul>
+                            <li class="tit">
+                                <a href="https://www.banolimpizza.com/event/w_ongoingList">이벤트</a>
+                            </li>
+                            <li>
+                                <a href="https://www.banolimpizza.com/event/w_ongoingList">진행중 이벤트</a>
+                            </li>
+                            <li>
+                                <a href="https://www.banolimpizza.com/event/w_endList">지난 이벤트</a>
+                            </li>
+                        </ul>
+                        <ul>
+                            <li class="tit">
+                                <a href="#">마이페이지</a>
+                            </li>
+                            <li>
+                                <a href="#">주문내역</a>
+                            </li>
+                            <li>
+                                <a href="#">쿠폰함</a>
+                            </li>
+                            <li>
+                                <a href="#">멤버십</a>
+                            </li>
+                            <li>
+                                <a href="#">개인정보 수정</a>
+                            </li>
+                        </ul>
+                        <ul>
+                            <li class="tit">
+                                <a href="https://www.banolimpizza.com/store/w_franchiseProcess">프랜차이즈</a>
+                            </li>
+                            <li>
+                                <a href="https://www.banolimpizza.com/store/w_franchiseConsult">창업문의</a>
+                            </li>
+                        </ul>
+                        <ul>
+                            <li class="tit">
+                                <a href="https://www.banolimpizza.com/store/w_companyStory">브랜드</a>
+                            </li>
+                            <li>
+                                <a href="https://www.banolimpizza.com/store/w_companyStory">브랜드스토리</a>
+                            </li>
+                        </ul>
+                        <ul>
+                            <li class="tit">
+                                <a href="https://www.banolimpizza.com/csCenter/w_notice">고객센터</a>
+                            </li>
+                            <li>
+                                <a href="https://www.banolimpizza.com/csCenter/w_notice">공지사항</a>
+                            </li>
+                            <li>
+                                <a href="https://www.banolimpizza.com/csCenter/w_qna">FAQ</a>
+                            </li>
+                            <li>
+                                <a href="#">고객의 소리</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="member">
+                    <ul>
+                        <li><a href="https://banolimpizza.com/user/w_memberJoinIdentity">회원가입</a></li>
+                        <li class="popup_btn"><a href="#">로그인</a></li>
+                        <li class="cart">
+                            <a href="#">
+                                <img src="images/icon_cart.png" alt="cart">
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="swiper mySwiper">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                    <a href="https://www.banolimpizza.com/event/w_ongoingDetail?eventId=2">
+                        <img src="images/20230720_07_main_challenge.jpg" alt="event1">
+                    </a>
+                </div>
+                <div class="swiper-slide">
+                    <a href="https://www.banolimpizza.com/event/w_ongoingDetail?eventId=3">
+                        <img src="images/20230721_07_main_newBanolim.jpg" alt="event2">
+                    </a>
+                </div>
+                <div class="swiper-slide">
+                    <a href="https://banolimpizza.com/menu/productPizzaDetail?spOid=1077&productId=3009">
+                        <img src="images/20230721_07_main_zicoPick.jpg" alt="event3">
+                    </a>
+                </div>
+            </div>
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-button-next"></div>
+            <div class="swiper-pagination"></div>
+        </div>
+        <div class="address">
+            <span class="setting">기본 주소를 등록해 주세요.</span>
+        </div>
+        <div class="order">
+            <div class="item1">배달주문</div>
+            <div class="item2">포장주문</div>
+        </div>
+        <div class="content">
+            <div class="box">
+                <div class="title">
+                    <span>반올림피자샵</span>
+                </div>
+                <ul>
+                    <li>
+                        <a href="https://banolimpizza.com/w_main">
+                            <img src="images/main_icon_membership.png" alt="membership">
+                        </a>
+                        <p>멥버십</p>
+                    </li>
+                    <li>
+                        <a href="https://www.banolimpizza.com/order/w_eCoupon">
+                            <img src="images/main_icon_coupon.png" alt="coupon">
+                        </a>
+                        <p>E-쿠폰</p>
+                    </li>
+                    <li>
+                        <a href="https://banolimpizza.com/event/w_ongoingList">
+                            <img src="images/main_icon_event.png" alt="event">
+                        </a>
+                        <p>이벤트.할인</p>
+                    </li>
+                    <li class="popup_btn">
+                        <a href="#">
+                            <img src="images/main_icon_store.png" alt="store">
+                        </a>
+                        <p>매장찾기</p>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="foot">
+            <div class="footer">
+                <div class="footer-box">
+                    <div class="left">
+                        <h3><img src="images/banolim_symbol_g.png" alt="logo_g"></h3>
+                        <ul>
+                            <li><a href="#">개인정보처리방침</a></li>
+                            <li><a href="#">이용약관</a></li>
+                            <li><a href="https://banolimpizza.com/store/w_franchiseProcess">창업문의</a></li>
+                            <li><a href="https://banolimpizza.com/csCenter/w_notice">고객센터</a></li>
+                            <li><a href="https://banolimpizza.com/store/w_companyStory">브랜드 스토리</a></li>
+                        </ul>
+                        <div class="text">
+                            <ul>
+                                <li><a href="#">주식회사 반올림피자 대표자 : 마지헌</a></li>
+                                <li><a href="#">사업자등록번호 298-86-00407</a></li>
+                            </ul>
+                            <ul>
+                                <li><a href="#">통신판매업신고번호 2020-대구북구-0198호</a></li>
+                                <li><a href="#">주소 : 대구시 북구 매천로 163</a></li>
+                            </ul>
+                            <p>이메일 : info@banolimpizza.com</p>
+                        </div>
+                        <p>Copyright ⓒ2011 BANOLIMPIZZA All right reserved</p>
+                    </div>
+                    <div class="right">
+                        <ul>
+                            <li>
+                                <h3>온라인주문 고객센터</h3>
+                                <h2>1833-7492</h2>
+                                <p>연중무휴 오전11시~오후23시까지</p>
+                            </li>
+                            <li>
+                                <h3>창업문의</h3>
+                                <h2>1688-4827</h2>
+                                <p>평일 오전10시~오후 5시까지</p>
+                            </li>     
+                        </ul>
+                    </div>
+                </div>
+            </div>    
+        </div>
+        <!-- E쿠폰팝업창 -->
+        <!-- <div class="back-bg"></div>
+        <div class="modal-wrap">
+            <div class="modal-close">
+                <a href="#">close</a>
+            </div>
+            <div class="top-tit">
+                <div class="tit">E쿠폰 주문 방법 안내</div>
+                <div class="txt">반올림피자를 이용해 주시는 고객님께 감사의 말씀을 드립니다.</div>
+            </div>
+            <div class="pop-box">
+                <div class="txtwrap">
+                    <div class="title2">
+                        "신규 앱 안정성 테스트 기간동안"
+                        <br>
+                        <span>'E쿠폰 주문'은 가맹점을 통한 전화 주문만 가능합니다.</span>
+                    </div>
+                    <div class="sub">
+                        "이용에 불편을 드려 죄송합니다."
+                        <br>
+                        "보다 나은 서비스로 찾아 뵙겠습니다."
+                    </div>
+                </div>
+            </div>
+            <div class="btnWrap">
+                <button class="bicon">매장찾기</button>
+            </div>
+        </div> -->
+        <div class="back-BG"></div>
+        <div class="lmodal-wrap">
+            <div class="modalClose">
+                <a href="#">close</a>
+            </div>
+            <div class="popTit">로그인</div>
+            <div class="popBox">
+                <ul class="_tabLine">
+                    <li class="m-btn">
+                            <input type="radio" name="login" checked>
+                            <div>회원주문</div>
+                    </li>
+                    <li class="nm-btn">
+                            <input type="radio" name="login">
+                            <div>비회원주문</div>
+                    </li>
+                </ul>
+                <ul class="boxWrap">
+                    <li class="m-ber">
+                        <div class="inputWrap">
+                            <input type="text" name="weId" id="weId" autocomplete="new-password" placeholder="아이디">
+                            <input type="password" name="pass" id="pass" placeholder="비밀번호">
+                        </div>
+                        <div class="findWrap float">
+                            <div class="_check left">
+                                <input type="checkbox" name id="idSaveCheck" class="checkbox">
+                                <label>아이디저장</label>
+                            </div>
+                            <div class="_check left">
+                                <input type="checkbox" name id="idSaveCheck" class="checkbox">
+                                <label>자동로그인</label>
+                            </div>
+                            <button class="right" id="searchIdPwBtn">아이디 / 비밀번호 찾기</button>
+                        </div>
+                        <div class="btnWrap">
+                            <button type="button" class="colB">로그인</button>
+                            <button class="colW-G">회원가입</button>
+                        </div>
+                        <div class="snsLogin">
+                            <div class="tit">간편로그인</div>
+                            <ul>
+                                <li class="naver"></li>
+                                <li class="kakao"></li>
+                                <li class="apple"></li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li class="n-ber">
+                        <div class="ntop">
+                            <button class="b-order">비회원주문</button>
+                            <button class="b-inquiry">비회원주문조회</button>
+                        </div>
+                        <div class="nbottom">
+                            <div class="txt">비회원 주문 시 할인 혜택을 받을 수 없습니다</div>
+                            <button class="b-join">회원가입</button>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    <script src="js/swiper-bundle.min.js"></script>
+    <script src="js/banolim-index.js"></script>
+</body>
+</html>
